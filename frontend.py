@@ -52,6 +52,8 @@ def update_command():
 
 window=Tk()
 
+window.wm_title("Bookstore")
+
 l1 = Label(window,text="Title")
 l1.grid(row=0,column=0)
 
